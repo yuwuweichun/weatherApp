@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--引入Poppins字体-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--rel = relationship 表示被链接的文档是一个样式表-->
+    <title>留意天气，照顾好自己</title>
+</head>
+<body>
+
+
+    <div id="head">
+        <h1>🌤️留意天气，照顾好自己☔</h1>
+    </div>
+
+    
+    <div id="search">
+        <div>
+            <input type="text" id="searchBar" placeholder="请输入城市名拼音，如 beijing">
+        </div>
+        <button id="searchButton"></button>
+    </div>
+
+
+    <div id="main">
+        <div id="message">
+            <h3 id="weather">今日天气:</h3>
+            <h3 id="temperature">当前气温:</h3>
+            <h3 id="feelsLike">体感温度:</h3>
+            <h3 id="humidity">相对湿度:</h3>
+
+
+            
+        </div>
+        <div id="tip">
+            <img src="Alyssa.webp" alt="Alyssa" id="Alyssa">
+            <h3>Alyssa:</h3>
+            <article id="tipFromAlyssa"></article>
+        </div>
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

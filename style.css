@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-height: 100vh;
+    overflow-y: hidden;
+    background-image: url('Linea.jpg');
+    background-size: cover;
+    
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 35vw;
+    width: 30vw;
+    height: 10vh;
+    background: linear-gradient(to right, rgb(100, 236, 212), rgb(96, 220, 244));
+    border-radius: 16px;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(108, 196, 188, 0.62);
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    margin-left: 25vw;
+    height: 10vh;
+    width: 50vw;
+
+}
+
+#searchBar {
+    width: 40vw;
+    height: 8vh;
+    background: rgba(184, 136, 27, 0.2);
+    border-radius: 50px;
+    box-shadow: 2px 2px 0 rgb(245, 245, 245) inset;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(184, 136, 27, 0.3);
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+
+#searchButton {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    background-image: url(search.png);
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s;
+}
+/*让按钮悬浮起来！*/
+#searchButton:hover {
+    cursor: pointer;
+    transform: translateY(-8px); 
+
+}
+
+/*按钮反馈*/
+#searchButton:active{
+    transform: translateY(8px);
+}
+
+
+#main{
+    perspective: 1000px;
+}
+
+/*rgba 第四个参数为透明度 blur() 模糊效果*/
+#message{ 
+    width: 20vw;
+    height: 40vh;   
+    margin-left: 25vw; 
+    margin-top: 10vh;
+    background: rgba(156, 238, 198, 0.30);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    transition: .2s;
+    box-shadow: 0.5px 0.5px 0 rgb(245, 245, 245) inset;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#message *{
+    margin-left: 2vw;
+}
+
+
+#tip{
+    position: relative;
+    top: -45vh;
+    left: 50vw;
+    width: 25vw;
+    height: 60vh;   
+    background: rgba(66, 208, 232, 0.30);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    transition: .2s;
+    box-shadow: 0.5px 0.5px 0 rgb(245, 245, 245) inset;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#tip *{
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+}
+
+#Alyssa{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+   
+}
+
+#tipFromAlyssa{
+    width: 21vw;
+}
+
+
+
