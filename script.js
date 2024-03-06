@@ -47,7 +47,7 @@ tip.addEventListener('mouseout', function () {
 document.getElementById('searchButton').addEventListener('click', function () {
 
   let cityName = document.getElementById('searchBar').value;
-  let url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=53ad837388ff25d07e12f443d4d7005c';
+  let url = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=53ad837388ff25d07e12f443d4d7005c';
   console.log(cityName)
   fetch(url)
     .then(response => response.json())
