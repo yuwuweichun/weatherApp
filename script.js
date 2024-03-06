@@ -193,13 +193,13 @@ document.getElementById('searchButton').addEventListener('click', function () {
 
 
       //将上一次的查询结果清除
-      weatherDOM.textContent = '今日天气';
+      weatherDOM.textContent = '今日天气:';
 
-      temperatureDOM.textContent = '当前气温';
+      temperatureDOM.textContent = '当前气温:';
 
-      feelsLikeDOM.textContent = '体感温度';
+      feelsLikeDOM.textContent = '体感温度:';
 
-      humidityDOM.textContent = '相对湿度';
+      humidityDOM.textContent = '相对湿度:';
 
       tipFromAlyssaDOM.textContent = '';
 
